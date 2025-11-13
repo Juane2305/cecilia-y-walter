@@ -275,6 +275,13 @@ const Invitacion = () => {
               />
           </div>
               </section>
+        <div className="bg-white text-center py-6 px-3">
+          <p className="text-[#69795d] font-eleganteText text-lg md:text-2xl italic">
+            Podés confirmar tu asistencia hasta el <span className="font-semibold">20 de Diciembre</span>.
+            <br />
+            ¡Tu respuesta nos ayuda a organizar todo de una mejor manera! ✨
+          </p>
+        </div>
         <Asistencia
           clase="py-10 bg-white bg-fixed border-y-4 border-[#9eba8a]"
           claseTitle="text-[#9eba8a]"
