@@ -97,23 +97,14 @@ const Invitacion = () => {
         </div>
 
       </div>
-        <section className="bg-white py-10 text-center px-6 md:px-20 relative">
-          <div
-            data-aos="fade-up"
-            className="max-w-3xl mx-auto bg-[#f8f5f0] border border-[#d8d3c4] rounded-3xl p-8 shadow-sm"
-          >
-            <p className="text-gray-700 text-lg md:text-xl leading-relaxed font-robotoSerif">
-              Con cariño les pedimos acompañarnos sin niños, para que todos podamos bailar y brindar sin preocupaciones. <br /><span className="italic font-semibold text-[#69795d]">¡ Los esperamos !</span>
-            </p>
-            <img
-              src={ringsInicio}
-              alt="Decoración anillos"
-              className="w-20 mx-auto mt-6 opacity-80"
-            />
-          </div>
-        </section>
+
 
       <div>
+        <div className="bg-white py-10 text-center border-t-4 border-[#9eba8a]">
+          <p className="text-lg md:text-xl italic font-eleganteText text-[#4b5147] px-10">
+            Hoy sellamos ante Dios el amor que nos une.
+          </p>
+        </div>
         <section
           id="contador"
           className="bg-white py-10 border-y-4 border-[#9eba8a]"
@@ -134,9 +125,9 @@ const Invitacion = () => {
             <LugaresLineal
               borderColor="border-[#a2b891]"
               buttonStyle="border-[#a2b891] text-lg"
-              iglesia="Parroquia María Madre de la Iglesia"
+              iglesia="Parroquia María Madre de la Iglesia, Neuquén"
               hora_iglesia="18:30hs"
-              salon="Te esperamos en La Colorada Eventos"
+              salon="Te esperamos en La Colorada Eventos, Ferri - Cipolletti, Rio Negro"
               hora_civil="13:00hs"
               hora_fiesta="20:00hs"
               link_ceremonia="https://maps.app.goo.gl/h48DxcAEP94fm9sKA"
@@ -205,15 +196,7 @@ const Invitacion = () => {
             />
           </div> */}
 
-        <div className="bg-[#69795d] text-center relative text-white">
-          <GoogleCalendarButton
-            buttonClass="border-white rounded-full"
-            titleCalendar="Casamiento de Cecilia y Walter"
-            salon="La Colorada, Cipolletti, Río Negro Province"
-            fechaComienzo="20260117T200000"
-            fechaFin="20260118T050000"
-          />
-        </div>
+
 
         <div className="relative bg-white py-10">
           <img
@@ -267,13 +250,37 @@ const Invitacion = () => {
 
         <AlbumRecuerdos link="https://photos.app.goo.gl/b4ZHa85wqiPwqbQh8" color="#69795d" />
 
+        <div className="bg-[#69795d] text-center relative text-white">
+          <GoogleCalendarButton
+            buttonClass="border-white rounded-full"
+            titleCalendar="Casamiento de Cecilia y Walter"
+            salon="La Colorada, Cipolletti, Río Negro Province"
+            fechaComienzo="20260117T200000"
+            fechaFin="20260118T050000"
+          />
+        </div>
+
+        <section className="bg-white py-10 text-center px-6 md:px-20 relative">
+          <div
+            data-aos="fade-up"
+            className="max-w-3xl mx-auto bg-[#f8f5f0] border border-[#d8d3c4] rounded-3xl p-3 shadow-sm"
+          >
+            <p className="text-gray-700 text-lg md:text-xl  font-robotoSerif">
+              Queremos que puedan disfrutar plenamente de la celebración, por eso nuestra boda será un evento para adultos (sin niños). <br /> <br /> <span className="text-base">¡Gracias por comprender y acompañarnos en este día tan especial!</span> <br /><span className="italic font-semibold text-[#69795d]">¡ Los esperamos !</span>
+            </p>
+            <img
+              src={ringsInicio}
+              alt="Decoración anillos"
+              className="w-20 mx-auto mt-6 opacity-80"
+              />
+          </div>
+              </section>
         <Asistencia
-          clase="py-10 bg-white bg-fixed border-b-4 border-[#9eba8a]"
+          clase="py-10 bg-white bg-fixed border-y-4 border-[#9eba8a]"
           claseTitle="text-[#9eba8a]"
           claseButton="border-2 border-[#9eba8a] font-semibold hover:bg-[#9eba8a]  text-gray-700 hover:text-white rounded-full"
           linkAsistencia="https://docs.google.com/forms/d/e/1FAIpQLSdNdtWqIWALCC2HoLacaBv7ws4qFtvgPxBOG_fq7ueFfouBhw/viewform?usp=sharing&ouid=101386997737484433208"
         />
-
         <div className="font-robotoSerif text-xl italic bg-white">
           <TextoFinal textoFinal="¡Gracias por venir!" />
         </div>
